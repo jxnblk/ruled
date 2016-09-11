@@ -1,0 +1,22 @@
+{
+  "name": "ruled",
+  "version": "1.0.0",
+  "description": "Grid/Graph paper like CSS background gradient generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava"
+  },
+  "keywords": [
+    "grid",
+    "graph",
+    "background",
+    "css",
+    "style",
+    "css-in-js"
+  ],
+  "author": "Brent Jackson",
+  "license": "MIT",
+  "devDependencies": {
+    "ava": "^0.16.0"
+  }
+}
