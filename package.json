@@ -2,8 +2,9 @@
   "name": "ruled",
   "version": "1.0.0",
   "description": "Grid/Graph paper like CSS background gradient generator",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
+    "prepublish": "mkdir -p dist && babel src --out-dir dist",
     "test": "ava"
   },
   "keywords": [
@@ -17,6 +18,8 @@
   "author": "Brent Jackson",
   "license": "MIT",
   "devDependencies": {
-    "ava": "^0.16.0"
+    "ava": "^0.16.0",
+    "babel-cli": "^6.14.0",
+    "babel-preset-es2015": "^6.14.0"
   }
 }

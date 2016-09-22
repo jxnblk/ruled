@@ -1,6 +1,6 @@
 
 import test from 'ava'
-import ruled from './index'
+import ruled from './src'
 
 test('returns a string', t => {
   const bg = ruled()
