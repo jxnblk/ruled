@@ -1,6 +1,6 @@
 {
   "name": "ruled",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Grid/Graph paper like CSS background gradient generator",
   "main": "dist/index.js",
   "scripts": {
